@@ -1,0 +1,7 @@
+print("welcome to python programming")
+print(5 + 8)
+print("5+8")
+print(3-2)
+print("6*9")
+print("this is my first project")
+print(100*102)
