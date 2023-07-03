@@ -3,17 +3,23 @@ class Animal:
         self.name = name
 
     def speak(self):
-          raise NotImplementedError("Child classes must implement this method")
+        raise NotImplementedError("Child classes must implement this method")
+
+
 class Dog(Animal):
     def speak(self):
         return "Woof"
+
+
 class Cat(Animal):
     def speak(self):
         return "Meow"
 
+
 class Horse(Animal):
     def speak(self):
         return "Neigh"
+
 
 dog = Dog("Bosco")
 print(dog.name)
@@ -24,4 +30,3 @@ print(cat.name)
 print(cat.speak())
 
 object3 = Horse("Zulu")
-

@@ -19,8 +19,5 @@ list = [4, 5, 6, 7, 8, 9, 13, 45, 67]
 answer = calculate_average(list)
 print("the average is", answer)
 
-
-
-
-# create a function to disiplay a palindrome
-#create a function that'll give you the longest string in a list of items
+# create a function to display a palindrome
+# create a function that'll give you the longest string in a list of items
