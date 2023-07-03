@@ -19,7 +19,7 @@ matunda={
     "amount":40,
     "jina":"Ndizi",
     "rangi":"yellow",
-    "size": "large"
+
 }
 matunda["size"]="large"
 print(matunda)
